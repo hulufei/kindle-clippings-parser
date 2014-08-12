@@ -1,0 +1,33 @@
+{
+  "name": "kindle-clippings-parser",
+  "version": "0.0.0",
+  "description": "Parse My Clippings.txt through streams",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "split": "~0.3.0",
+    "through": "~2.3.4"
+  },
+  "devDependencies": {
+    "tape": "~2.14.0"
+  },
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hulufei/kindle-clippings-parser.git"
+  },
+  "keywords": [
+    "kindle",
+    "clippings",
+    "stream"
+  ],
+  "author": "hulufei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hulufei/kindle-clippings-parser/issues"
+  }
+}
